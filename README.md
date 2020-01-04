@@ -66,11 +66,16 @@ $service.PSChildName | clip.exe
 # 커맨드 사용 방법
 
 #### 프록시 서버 (Proxy Server)
-In CMD ```ServerExample.exe <listen port> <listen serviceGuid> ```
+```
+In CMD
+ServerExample.exe <listen port> <listen serviceGuid>
 
-In PowerShell ```.\ServerExample.exe <listen port> '<listen serviceGuid>'```
+In PowerShell
+.\ServerExample.exe <listen port> '<listen serviceGuid>'
 
-Example ```.\ServerExample 3000 '{74720853-1be5-40c7-93d2-b9118f0f9006}'```
+Example
+.\ServerExample 3000 '{74720853-1be5-40c7-93d2-b9118f0f9006}'
+```
 
 인자 설명(parameter description):
 - listen port: 리버스 프록시를 연결할 포트입니다.
